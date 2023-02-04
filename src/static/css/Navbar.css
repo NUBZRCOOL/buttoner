@@ -1,0 +1,32 @@
+nav {
+
+    background-color: #d4d4d4;
+    list-style-type: none;
+    padding: 10px;
+    line-height: 30px;
+    text-align: center;
+}
+
+#nav-title-div a {
+
+    text-decoration: none;
+    color: #343434;
+}
+
+#nav-title-div a:hover {
+
+    text-decoration: none;
+    color: #343434;
+}
+
+#nav-title-div > a > h1 {
+
+    font-size: 4em;
+}
+
+#nav-items-div > li {
+
+    display: inline-block;
+    margin: 20px;
+    font-size: xx-large;
+}
