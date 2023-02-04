@@ -5,16 +5,16 @@ import img from '../static/img/adam.ico';
 import '../static/css/adamSpeechBubble.css';
 
 
-const adamSpeechBubble = () => {
+const AdamSpeechBubble = ({children}) => {
 
     return (
         
-        //<div>
-
-            <img src={img} id="adam" alt="adam" />
-
-        //</div>
+        <>
+        
+            <img width="100px" src={img} alt="adam" />
+            <p>{children}</p>
+        </>
     );
 }
 
-export default adamSpeechBubble;
+export default AdamSpeechBubble;

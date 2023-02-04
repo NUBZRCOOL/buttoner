@@ -1,6 +1,6 @@
 import React from 'react';
 
-import adamSpeechBubble from '../components/adamSpeechBubble.jsx';
+import Adamspeechbubble from "../components/adamSpeechBubble.jsx";
 
 
 const About = () => {
@@ -8,7 +8,7 @@ const About = () => {
 
         <div id="appWrapper">
 
-            <adamSpeechBubble/>
+            <Adamspeechbubble>I suck</Adamspeechbubble>
         </div>
     )
 }
